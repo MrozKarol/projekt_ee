@@ -14,26 +14,27 @@
   padding: 0 0 0 0;
 }
 
-.navbar {
-  height: auto;
+/* .navbar {
+ 
   background-image: url(/Image/header_oswietlenie.jpg);
   background-position: center;
   
-}
+} */
 .dow_a a{
   width: 100%;
   padding: 25px;
   
 }
 .dow_a a{
-  box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px #5D9C10;
 }
 
 .dow_a a:hover{
-  box-shadow: 0 8px 6px -6px rgb(0, 163, 54);
+  background-color: #f47b20;
+  box-shadow: 0 8px 6px -6px rgb(#f47b20;);
 }
 .card:hover{
-  background-color: rgb(0, 163, 54)
+  background-color: rgb(#5D9C10)
 }
 
 .logo_footer{
@@ -78,6 +79,13 @@ html {
   left: auto;
 }
 
+.cards_ofert{
+  transition: transform 2s
+}
+.cards_ofert:hover{
+  
+  transform: translateY(-10px)
+}
 
 
 /*---Media Queries --*/
@@ -111,8 +119,27 @@ No media query since this is the default in Bootstrap */
 /* 
 Large (lg) devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-   
   
+  .navbar{
+    background-color: #5D9C10 ;
+  }
+
+  .navbar-nav a{
+    
+    width: 120px;
+    height: 85px
+  }
+
+
+
+  .dowland{
+    margin-top:25px
+  }
+  .dow_a a{
+    width: 100%;
+    padding: 35px;
+    
+  }
   
     
 }
