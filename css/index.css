@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
 
+html {
+  scroll-behavior: smooth;
+}
 .wraper {
   max-width: 1800px;
 }
@@ -14,12 +17,7 @@
   padding: 0 0 0 0;
 }
 
-/* .navbar {
- 
-  background-image: url(/Image/header_oswietlenie.jpg);
-  background-position: center;
-  
-} */
+
 .dow_a a{
   width: 100%;
   padding: 25px;
@@ -31,18 +29,14 @@
 
 .dow_a a:hover{
   background-color: #f47b20;
-  box-shadow: 0 8px 6px -6px rgb(#f47b20;);
+  box-shadow: 0 8px 6px -6px rgb(#f47b20);
 }
-.card:hover{
-  background-color: rgb(#5D9C10)
-}
+
 
 .logo_footer{
   box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
 }
-html {
-  scroll-behavior: smooth;
-}
+
 
 .effect2
 {
@@ -79,13 +73,6 @@ html {
   left: auto;
 }
 
-.cards_ofert{
-  transition: transform 2s
-}
-.cards_ofert:hover{
-  
-  transform: translateY(-10px)
-}
 
 
 /*---Media Queries --*/
@@ -120,14 +107,13 @@ No media query since this is the default in Bootstrap */
 Large (lg) devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
   
+  
   .navbar{
     background-color: #5D9C10 ;
   }
 
-  .navbar-nav a{
+  .nav-item a{
     
-    width: 120px;
-    height: 85px
   }
 
 
