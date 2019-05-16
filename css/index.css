@@ -17,20 +17,45 @@ html {
   padding: 0 0 0 0;
 }
 
+.navbar{
+  border: 2px outset #1C6EA4;
+    border-radius: 19px 0px 19px 0px;
+}
+
+.navlogo img{
+   
+  border-radius: 19px 0px 0px 0px;
+ }
+
+.dowland_button{
+  background: #5D9C10
+}
+
+.dowland_button:hover{
+  background: #5D9C10
+}
+
+.dowland_button{
+  background: #5D9C10;
+  box-shadow: 0 8px 6px -6px  #5D9C10;
+
+}
 
 .dow_a a{
   width: 100%;
   padding: 25px;
+  transition-duration: 0.5s
   
 }
-.dow_a a{
-  box-shadow: 0 8px 6px -6px #5D9C10;
-}
+
 
 .dow_a a:hover{
   background-color: #f47b20;
-  box-shadow: 0 8px 6px -6px rgb(#f47b20);
+  box-shadow: 0 8px 6px -6px #f47b20;
+  
 }
+
+
 
 
 .logo_footer{
@@ -72,11 +97,19 @@ html {
   right: 10px;
   left: auto;
 }
-
+.effect2:hover{
+  background: #5D9C10
+}
 
 
 /*---Media Queries --*/
-@media (max-width: 992px) {
+@media (max-width: 991px) {
+  .navbar {
+    background-image: url(/Image/header_oswietlenie.jpg);
+ 
+  }
+  
+  
 }
 @media (max-width: 768px) {
 }
@@ -99,7 +132,9 @@ html {
 No media query since this is the default in Bootstrap */
 
 /* Small (sm) devices (landscape phones, 576px and up) */
-/* @media (min-width: 576px) { ... } */
+@media (min-width: 576px) { 
+  
+}
 
 /* Medium (md) devices (tablets, 768px and up) */
 /* @media (min-width: 768px) { ... } */
@@ -109,23 +144,29 @@ Large (lg) devices (desktops, 992px and up) */
   
   
   .navbar{
-    background-color: #5D9C10 ;
+    background-color: #5D9C10;
+  
   }
 
-  .nav-item a{
-    
+  
+  .nav_a{
+    white-space: nowrap;
   }
 
-
+ 
 
   .dowland{
-    margin-top:25px
+    margin-top:25px;
+    
   }
   .dow_a a{
     width: 100%;
     padding: 35px;
     
+    
   }
+
+  
   
     
 }
