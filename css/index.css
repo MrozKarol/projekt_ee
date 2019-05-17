@@ -18,7 +18,7 @@ html {
 }
 
 .navbar{
-  border: 2px outset #1C6EA4;
+  border: 2px outset #ebebeb;
     border-radius: 19px 0px 19px 0px;
 }
 
@@ -144,7 +144,7 @@ Large (lg) devices (desktops, 992px and up) */
   
   
   .navbar{
-    background-color: #5D9C10;
+    background-color: #ebebeb
   
   }
 
