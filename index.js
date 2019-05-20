@@ -1,5 +1,5 @@
-var today = new Date();
-var year = today.getFullYear();
-var footer = document.querySelector(".footer");
+let today = new Date();
+let year = today.getFullYear();
+let footer = document.querySelector(".footer");
 
-footer.innerHTML = "<h5> Copyrigth &copy;" + year + " wszelkie prawa zastrzeżone </h5>"
+footer.innerHTML = "<h5> Copyrigth &copy;" + year + " wszelkie prawa zastrzeżone wersja DEMO  0.1.0 </h5>"

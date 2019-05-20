@@ -23,13 +23,19 @@ html {
 }
 
 .nav_a{
-  padding-top: 20px;}
+  padding-top: 20px;
+  
+
+}
 
 .navlogo img{
    
   border-radius: 19px 0px 0px 0px;
  }
-
+.main{
+  margin-top: 2rem
+}
+ 
 .dowland_button{
   background: #5D9C10
 }
@@ -103,13 +109,20 @@ html {
 .effect2:hover{
   background: #5D9C10
 }
+.social a{
+  font-size: 40px;
+  padding: 20px
+}
 
+.mailito_social{
+  color: #777
+}
 
 /*---Media Queries --*/
 @media (max-width: 991px) {
   .navbar {
     background-image: url(/Image/header_oswietlenie.jpg);
- 
+
   }
   
   
@@ -151,21 +164,28 @@ Large (lg) devices (desktops, 992px and up) */
   
   }
 
-
+  .navul {
+    padding-right: 20px;
+  
+  }
   
   .nav_a{
     height: 80px;
     white-space: nowrap;
   }
 
-  li:hover{
+
+  .nav-item a:hover{
   
     
     -webkit-box-shadow: 0 8px 6px -6px #5D9C10;
 	   -moz-box-shadow: 0 8px 6px -6px #5D9C10;
-	        box-shadow: 0 8px 6px -6px #5D9C10;
+          box-shadow: 0 8px 6px -6px #5D9C10;
+          font-weight: bold ;
+     color: #5D9C10 !important
   }
 
+ 
   .dowland{
     margin-top:25px;
     
@@ -173,12 +193,14 @@ Large (lg) devices (desktops, 992px and up) */
   .dow_a a{
     width: 100%;
     padding: 35px;
-    
-    
+  
   }
-
+  .social a{
+    font-size: 40px;
+    padding: 20px
+  }
   
-  
+ 
     
 }
 
