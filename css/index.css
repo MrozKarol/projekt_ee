@@ -4,7 +4,7 @@ html {
   scroll-behavior: smooth;
 }
 .wraper {
-  max-width: 1800px;
+  max-width: 1400px;
 }
 
 .no-gutters {
@@ -21,6 +21,9 @@ html {
   border: 2px outset #ebebeb;
     border-radius: 19px 0px 19px 0px;
 }
+
+.nav_a{
+  padding-top: 20px;}
 
 .navlogo img{
    
@@ -151,10 +154,17 @@ Large (lg) devices (desktops, 992px and up) */
 
   
   .nav_a{
+    height: 80px;
     white-space: nowrap;
   }
 
- 
+  li:hover{
+  
+    
+    -webkit-box-shadow: 0 8px 6px -6px #5D9C10;
+	   -moz-box-shadow: 0 8px 6px -6px #5D9C10;
+	        box-shadow: 0 8px 6px -6px #5D9C10;
+  }
 
   .dowland{
     margin-top:25px;
