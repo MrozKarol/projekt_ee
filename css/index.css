@@ -120,6 +120,9 @@ html {
 
 /*---Media Queries --*/
 @media (max-width: 991px) {
+  .heder{
+    display: none
+  }
   .navbar {
     background-image: url(/Image/header_oswietlenie.jpg);
 
@@ -157,9 +160,10 @@ No media query since this is the default in Bootstrap */
 /* 
 Large (lg) devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-  
+ 
   
   .navbar{
+    position: relative;
     background-color: #ebebeb
   
   }
