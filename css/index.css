@@ -123,6 +123,10 @@ html {
   .heder{
     display: none
   }
+  .nav_a {
+    color: bisque !important
+  }
+
   .navbar {
     background-image: url(/Image/header_oswietlenie.jpg);
 
