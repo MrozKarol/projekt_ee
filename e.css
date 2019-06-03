@@ -6,3 +6,17 @@
 .cards{
     padding: 0 10px 0 10px
 }
+
+.dowland{
+    margin-top:25px;
+    
+  }
+
+  .eee{
+      display: flex;
+      justify-content: space-around
+  }
+
+i{
+    width: 20px
+}
