@@ -17,10 +17,7 @@ html {
   padding: 0 0 0 0;
 }
 
-.navbar{
-  border: 2px outset #ebebeb;
-    border-radius: 19px 0px 19px 0px;
-}
+
 
 .nav_a{
   padding-top: 20px;
@@ -28,10 +25,7 @@ html {
 
 }
 
-.navlogo img{
-   
-  border-radius: 19px 0px 0px 0px;
- }
+
 .main{
   margin-top: 2rem
 }
@@ -120,17 +114,7 @@ html {
 
 /*---Media Queries --*/
 @media (max-width: 991px) {
-  .heder{
-    display: none
-  }
-  .nav_a {
-    color: bisque !important
-  }
 
-  .navbar {
-    background-image: url(/Image/header_oswietlenie.jpg);
-
-  }
   
   
 }
@@ -165,23 +149,10 @@ No media query since this is the default in Bootstrap */
 Large (lg) devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
  
-  
-  .navbar{
-    position: relative;
-    background-color: #ebebeb
-  
-  }
 
-  .navul {
-    padding-right: 20px;
-  
-  }
-  
   .nav_a{
-    height: 80px;
-    white-space: nowrap;
+    white-space: nowrap
   }
-
 
   .nav-item a:hover{
   
